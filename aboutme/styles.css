@@ -37,11 +37,19 @@ img {
     
    }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
 .bio {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 300px;
     height: fit-content;
-    background-color: black;
     color: whitesmoke;
+    background-color: blue;
     padding: 50px;
 }
